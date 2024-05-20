@@ -65,6 +65,10 @@ const routes = [
     renderer: (params = {}) => <CoworkingView {...params} />,
   },
   {
+    path: '/index',
+    renderer: (params = {}) => <CoworkingView {...params} />,
+  },
+  {
     path: '/home',
     renderer: (params = {}) => <HomeView {...params} />,
   },
@@ -161,7 +165,7 @@ const routes = [
     renderer: (params = {}) => <HelpCenterView {...params} />,
   },
   {
-    path: '/help-center-article',
+    path: '/help',
     renderer: (params = {}) => <HelpCenterArticleView {...params} />,
   },
   {
@@ -169,7 +173,7 @@ const routes = [
     renderer: (params = {}) => <PortfolioPageView {...params} />,
   },
   {
-    path: '/portfolio-masonry',
+    path: '/portfolio',
     renderer: (params = {}) => <PortfolioMasonryView {...params} />,
   },
   {
@@ -185,7 +189,7 @@ const routes = [
     renderer: (params = {}) => <ContactPageSidebarMapView {...params} />,
   },
   {
-    path: '/contact-page-cover',
+    path: '/contact',
     renderer: (params = {}) => <ContactPageCoverView {...params} />,
   },
   {
@@ -213,7 +217,7 @@ const routes = [
     renderer: (params = {}) => <BlogArticleView {...params} />,
   },
   {
-    path: '/blog-reach-view',
+    path: '/blog',
     renderer: (params = {}) => <BlogReachViewView {...params} />,
   },
   {

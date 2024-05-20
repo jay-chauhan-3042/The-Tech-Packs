@@ -53,7 +53,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
         }
 
         <Box marginLeft={4}>
-          <Link to={'/contact-page-cover'} style={{ textDecoration: 'none' }}>
+          <Link to={'/contact'} style={{ textDecoration: 'none' }}>
             <Button
               variant="contained"
               color="primary"
